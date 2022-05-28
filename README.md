@@ -23,3 +23,51 @@ Earnings Per Share: Company's net profit divided by the number of common shares 
 Estimated Shares Outstanding: Company's stock currently held by all its shareholders
 P/E Ratio: Ratio of the company's current stock price to the earnings per share
 P/B Ratio: Ratio of the company's stock price per share by its book value per share (book value of a company is the net difference between that company's total assets and total liabilities)
+
+Business Problem Overview
+The task at hand is to analyze the data, group the stocks based on the attributes provided, and share insights about the characteristics of each group.
+
+Tools used
+•	Python: scipy.spatial.distance, sklearn.model_selection, sklearn.metrics, yellowbrick.cluster, scipy.cluster.hiearchy
+•	Numpy library for computation
+•	Sklearn: sklearn.cluster, sklearn.compose, sklearn.preprocessing
+•	Seaborn library for informative statistical graphs
+•	Matplotib for interactive visualizations
+
+Project Coverage
+To perform a cluster analysis, to identify stocks that exhibit similar characteristics and ones which exhibit minimum correlation. This will help investors better analyze stocks across different market segments and help protect against risks that could make the portfolio vulnerable to losses.
+
+Tasks Performed
+•	Exploratory data analysis
+•	Univarate analysis: boxplot, labeled barplot
+•	Bivarate analysis: Heat map, outlier check
+•	Scaling data, K-means clustering, K with the elbow method
+•	Silhouette score, silhouette visualizer, cluster profiles
+•	Hierachical clustering, linkakge with Euclidean distance
+•	Dendograms using single linkage, complete linkage, average linkage, centroid linkage, ward linkage and weighted linkage
+•	Cluster Profiling
+
+Business Insights
+•	Cluster 2 companies are the ones which have a low price and have had a great previous quarter. They are less riskier investments and are traded in large volumes. The low P/E ratio might also indicate that these stocks are undervalued, but we will have to dig deeper to conclude the same with confidence.
+•	Cluster 3 company stocks are moderately priced and are less volatile. They had a good previous quarter and their stocks are traded in moderate volumes. The moderate earnings per share also indicate that these stocks will yield good returns.
+•	Trade&Ahead  should  look  into  more  financial  (fundamental  and  technical)  indicators  to  make better predictions of stock price movements and assessment of company valuation
+•	Trade&Ahead  should also conduct cluster analysis separately for each of the economic sectors as it will help them to provide better investment recommendations to their clients.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
